@@ -16,11 +16,9 @@
     a { color: #a00; text-decoration: none; }
     a:hover, a:focus { text-decoration: underline; }
     h1 { font-size: 350%; margin-bottom: 12px; }
-    h2 { font-size: 220%; margin-bottom: 12px; }
-    p, blockquote { margin-bottom: 5px;}
-    blockquote { margin-left: 20px; font-style: italic; }
-    .small { font-size: 80%; }
-    .right { text-align: right; }
+    p { margin-bottom: 5px; }
+    .quote { padding-left: 30px; italic; background-image: url(/img/quote.png); background-repeat: no-repeat; }
+    .verbatim { font-style: italic; }
   </style>
 </head>
 
@@ -40,36 +38,25 @@
       <p>
         It all started with a bang when <a href="http://www.backblaze.com">Backblaze</a> &mdash; an online backup company &mdash; open-sourced their custom storage server design in September 2009:
       </p>
-      
-      <p>
-        <a href="http://blog.backblaze.com/2009/09/01/petabytes-on-a-budget-how-to-build-cheap-cloud-storage/">Petabytes on a budget: How to build cheap cloud storage</a>
-      </p>
+     
+      <div class="quote"> 
+        <p>
+          <a href="http://blog.backblaze.com/2009/09/01/petabytes-on-a-budget-how-to-build-cheap-cloud-storage/">Petabytes on a budget: How to build cheap cloud storage</a>
+        </p>
 
-      <blockquote>
-        „We had to figure out how to store hundreds of petabytes of customer data
-        in a reliable, scalable way &mdash; and keep our costs low.
-        After looking at several overpriced commercial solutions, we decided to build 
-        our own custom Backblaze Storage Pods: 67 terabyte 4U servers for $7,867.”
-        &mdash; Tim Nufire (VP of Engineering, Backblaze)
-      </blockquote>
+        <p class="verbatim">“We had to figure out how to store hundreds of petabytes of
+          customer data in a reliable, scalable way &mdash; and keep our costs low.
+          After looking at several overpriced commercial solutions, we decided to build 
+          our own custom Backblaze Storage Pods: 67 terabyte 4U servers for $7,867.”
+          &mdash; Tim Nufire (VP of Engineering, Backblaze)
+        </p>
+      </div>
 
       <p>
         If you have any questions or want to build your own storage pods and participate
         in the evolution of the server design, then join the discussion in our
         <a href="http://groups.google.com/group/openstoragepod">Google group</a>.
       </p>
-
-      <!-- <p>
-        <a href="http://blog.backblaze.com/2009/10/07/backblaze-storage-pod-vendors-tips-and-tricks/">Backblaze Storage Pod: Vendors, Tips, and Tricks</a>
-      </p>
-      
-      <blockquote>
-        „You should feel free to experiment; try different motherboards, CPUs, cases,
-        fans, etc. Customize the Backblaze storage pod for your particular purpose.
-        Do keep in mind that while it may seem that every component should work
-        seamlessly with every other, it is not the case. If you are switching out
-        pieces, expect to need to experiment to get the system working right.”
-      </blockquote> -->
     </div>
     
     <div class="grid_4">
