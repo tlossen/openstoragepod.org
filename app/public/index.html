@@ -12,12 +12,12 @@
   <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
 
   <style>
-    body { margin-top: 10px; font: 15px/1.5 'Helvetica Neue', Arial, sans-serif; }
+    body { margin: 50px; font: 15px/1.5 'Helvetica Neue', Arial, sans-serif; }
     a { color: #a00; text-decoration: none; }
     a:hover, a:focus { text-decoration: underline; }
-    h1 { font-size: 350%; margin-bottom: 12px; }
+    h1 { font-size: 300%; margin-bottom: 12px; }
     p { margin-bottom: 5px; }
-    .quote { padding-left: 30px; italic; background-image: url(/img/quote.png); background-repeat: no-repeat; }
+    .quote { margin-left: 15px; padding-left: 15px; border-left: 1px solid black; }
     .verbatim { font-style: italic; }
   </style>
 </head>
@@ -26,18 +26,24 @@
   
   <div class="container_12">
   
-    <div class="grid_8">
-  
+    <div class="grid_12">
       <h1>Open Storage Pod</h1>
+    </div>
+    
+    <div class="clear"></div>
   
+    <div class="grid_6">
       <p>
         We are an open source hardware project that is developing <b>affordable</b> 
         petabyte-scale storage servers, built from <b>commodity</b> components. 
+        Our current goal is to crack the <b>petabyte-per-rack</b> barrier &mdash; which translates into a storage
+        density of 100 terabyte per pod &mdash; while consuming as little energy as possible.
         Our mission can be described as “<a href="http://perspectives.mvdirona.com/2009/09/03/SuccessfullyChallengingTheServerTax.aspx">challenging the server tax</a>” on enterprise storage solutions.
       </p>
 
       <p>
-        It all started with a bang when <a href="http://www.backblaze.com">Backblaze</a> &mdash; an online backup company &mdash; open-sourced their custom storage server design in September 2009:
+        It all started with a bang when <a href="http://www.backblaze.com">Backblaze</a> &mdash; an online backup 
+        service &mdash; open-sourced their custom storage server design in September 2009:
       </p>
      
       <div class="quote"> 
@@ -52,7 +58,7 @@
           &mdash; Tim Nufire (VP of Engineering, Backblaze)
         </p>
       </div>
-
+      
       <p>
         If you want to build your own storage pods and participate
         in the evolution of the server design, then join our
@@ -60,7 +66,7 @@
       </p>
     </div>
     
-    <div class="grid_4">
+    <div class="grid_2">
       <!-- Start of Flickr Badge -->
       <style type="text/css">
         #flickr_badge_source_txt {padding:0; font: 11px Arial, Helvetica, Sans serif; color:#666666;}
